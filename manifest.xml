@@ -1,0 +1,18 @@
+<package>
+  <description brief="This OroGen component implements a basic robot controller that reads motion commands and outputs updated poses. It serves as a tutorial for integrating control logic with ROCK's component model.">
+  This OroGen component implements a basic robot controller that reads motion commands and outputs updated poses. It serves as a tutorial for integrating control logic with ROCK's component model.
+  </description>
+  <author>con/</author>
+  <license></license>
+  <url>http://</url>
+  <logo>http://</logo>
+  <depend package="base/cmake" />
+  <!--
+   To add any dependencies use the depend tag
+  <depend package="dummy-dependency-0" />
+	...
+  <depend package="dummy-dependency-n-1" />
+  <depend package="dummy-dependency-n" />
+  -->
+  <depend package="tutorials/rock_tutorial" />
+</package>
