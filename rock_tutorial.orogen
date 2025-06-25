@@ -13,3 +13,7 @@ task_context "RockTutorialControl" do
   # Set runtime behaviour
   periodic(0.01)
 end
+
+deployment "rock_tutorial_control" do
+  task "rock_tutorial_control", "RockTutorialControl"
+end

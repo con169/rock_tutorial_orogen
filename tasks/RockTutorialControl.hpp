@@ -4,7 +4,7 @@
 #define ROCK_TUTORIAL_ROCKTUTORIALCONTROL_TASK_HPP
 
 #include "rock_tutorial/RockTutorialControlBase.hpp"
-
+#include <rock_tutorial/RockControl.hpp>
 namespace rock_tutorial{
 
     /*! \class RockTutorialControl
@@ -25,7 +25,8 @@ namespace rock_tutorial{
     {
 	friend class RockTutorialControlBase;
     protected:
-
+        RockControl* control;
+        double taskPeriod;
 
 
     public:
